@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-//função calculando a media de dois valores
-
-//prototipos de função - pode calcular em qualquer ordem
+//prototipos de funÃ§Ã£o - pode calcular em qualquer ordem
 float Media(float, float);
 void Troca(float *, float *);
 void Ordena(int[], int);
@@ -48,7 +46,7 @@ int main(){
 return 0;
 }
 
-//Função que calcula o somatorio do vetor
+//FunÃ§Ã£o que calcula o somatorio do vetor
 
 int Soma(int V[], int N){
     int i, S=0;
