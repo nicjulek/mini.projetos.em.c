@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define N 11
 
-//Verificar se um cpf È v·lido ou n„o.
+//Verificar se um cpf √© v√°lido ou n√£o.
 
 int verificaCPF(int cpf[]){
     int soma1 = 0, soma2= 0, i=0;
@@ -25,7 +25,7 @@ int verificaCPF(int cpf[]){
     if (valor2 == 10){
         valor2 = 0;}
 
-//Verifica se È v·lido
+//Verifica se √© v√°lido
 
     if (cpf[N-2] == valor1 && cpf[N-1] == valor2){
         return 1;}
@@ -37,6 +37,8 @@ int main(){
     int num[N], aux;
     printf("Digite seu cpf: ");
 
+//Coloca cada n√∫mero em seu dvido lugar dentro do vetor "num[i]"
+    
     for (int i = 0; i < N; i++) {
         scanf("%1d", &aux);
         num[i] = aux;
