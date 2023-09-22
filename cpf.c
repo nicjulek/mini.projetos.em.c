@@ -37,7 +37,7 @@ int main(){
     int num[N], aux;
     printf("Digite seu cpf: ");
 
-//Coloca cada número em seu dvido lugar dentro do vetor "num[i]"
+//Coloca cada número em seu devido lugar dentro do vetor "num[i]"
     
     for (int i = 0; i < N; i++) {
         scanf("%1d", &aux);
